@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/Fundo6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+	background-color: rgba(29, 29, 29, 0.534);
+	height: 225px;
+    box-shadow: 0 12px 25px rgb(32, 32, 32);
+ }
+ 
+.texto_tech {
+    font-size: 19px;
+    text-align: justify;
+    transition: 0.7s;
+    padding: 20px;
+    margin: 25px;
+    color: rgb(170, 169, 169);
+    background-color: rgba(32, 32, 32, 0.747);
+    border-radius: 20px;
+    overflow-wrap: break-word;
+    border: 5px double rgb(37, 37, 37);
+}
+
+.texto_tech:hover {
+    font-size: 20px;
+    text-align: justify;
+    transition: 0.7s;
+    padding: 19px;
+    margin: 26px;
+    color: rgb(172, 171, 171);
+    background-color: rgb(32, 32, 32);
+    border-radius: 8px;
+    box-shadow: inset 0px 9px 9px rgba(19, 19, 19, 0.801);
+    font-family: sans-serif;
+    overflow-wrap: break-word;
+}
+
+.titulo_universal {
+    text-align: center;
+    font-size: 29px;
+    color: rgb(45, 110, 185);
+}
+
+.texto_centro {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(202, 202, 202);
+    padding: 16px;
+}
+
+.mapa {
+    text-align: center;
+    width: 750px;
+	margin: 1em auto;
+	padding: 0px;
+	border: 5px groove rgb(31, 31, 31);
+	border-radius: 15px;
+    transition: 0.9s;
+}
+
+.mapa:hover {
+    border: 7px groove rgb(92, 188, 233);
+    transition: 0.9s;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+.logo {
+    margin-top: -30px;
+    width: 200px;
+}
+
+.titulo {
+    display: block;
+    margin:  0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: -198px;
+    padding: 20px;
+}
+
+.logo_agrinho {
+    display: block;
+    margin-left: auto;
+    width: 360px;
+    text-align: right;
+    margin-top: -210px;
+}
+
+.video {
+    text-align: center;
+}
+
+nav {
+	text-align: center;
+    margin-top: -45px;
+}
+
+ nav a {
+    transition: 0.6s;
+	font-size: 20px;
+    margin: 8px;
+	padding: 12px;
+	color: rgb(45, 110, 185);
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+    background-color: rgb(31, 30, 30);
+    box-shadow: inset 0px 5px 5px rgba(12, 12, 12, 0.753);
+    border-radius: 13px;
+}
+
+nav a:hover {
+    transition: 0.4s;
+	font-size: 23px;
+    margin: 11px;
+	padding: 13px;
+	background-color: rgb(45, 110, 185);
+	color: rgb(31, 31, 31);
+}

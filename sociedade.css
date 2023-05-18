@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/fundo5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+	background-color: rgba(29, 29, 29, 0.534);
+	height: 225px;
+    box-shadow: 0 12px 25px rgb(32, 32, 32);
+ }
+
+.logo {
+    margin-top: -30px;
+    width: 200px;
+}
+
+.titulo {
+    display: block;
+    margin:  0 auto;
+    width: 500px;
+    text-align: center;
+    margin-top: -199px;
+    padding: 15px;
+}
+
+.logo_agrinho {
+    display: block;
+    margin-left: auto;
+    width: 360px;
+    text-align: right;
+    margin-top: -210px;
+}
+
+h2 {
+    color: rgb(0, 110, 255);
+}
+
+.centro_texto {
+    text-align: center;
+}
+
+
+.texto_sociedade {
+    transition: 0.6s;
+    display: block;
+    font-size: 19px;
+    width: 40%;
+    margin: 28px;
+    padding: 27px;
+    border-radius: 26px;
+    border: 6px double rgb(25, 25, 26);
+    background-color: rgba(26, 25, 25, 0.74);
+    color: rgb(135, 136, 138);
+    box-shadow: inset 0px 6px 6px rgba(12, 12, 12, 0.801);
+    text-align: justify;
+    overflow-wrap: break-word;
+    float: right;
+}
+
+.texto_sociedade:hover {
+    transition: 0.6s;
+    display: block;
+    width: 42%;
+    font-size: 20px;
+    margin: 29px;
+    padding: 30px;
+    background-color: rgb(26, 25, 25);
+    color: rgb(178, 179, 182);
+    box-shadow: inset 0px 7px 7px rgba(12, 12, 12, 0.829);
+    float: right;
+}
+
+.imagem_ilustrativa {
+    margin-top: 130px;
+    padding: 55px;
+}
+
+.foto {
+    float: left;
+    margin-top: 80px;
+    width: 530px;
+    border-radius: 16px;
+    border: 4px groove rgb(25, 25, 26);
+}
+
+nav {
+	text-align: center;
+    margin-top: -45px;
+}
+
+nav a {
+	font-size: 20px;
+    margin: 8px;
+	padding: 12px;
+	color: rgb(45, 110, 185);
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+    background-color: rgb(32, 32, 32);
+    box-shadow: inset 0px 5px 5px rgba(19, 19, 19, 0.678);
+    border-radius: 13px;
+    transition: 0.7s;
+}
+
+nav a:hover {
+	font-size: 23px;
+    margin: 11px;
+	padding: 13px;
+	transition: 0.4s;
+    background-color: rgb(38, 138, 219);
+	color: rgb(37, 37, 39);
+}

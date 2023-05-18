@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(imagens/fundo5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+}
+
+.logo_foto {
+    width: 150px;
+}
+
+.login {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgba(7, 7, 7, 0.507);
+    border-radius: 12px;
+    width: 600px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+label {
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(36, 87, 226);
+    font-size: 20px;
+}
+
+input {
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: rgba(82, 80, 80, 0);
+    margin: 12px;
+    border: 3px groove rgb(39, 39, 39);
+    color: rgb(156, 151, 151);
+    padding: 7px 7px;
+    outline: none;
+    transition: 0.7s;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.527);
+}
+
+input:hover {
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+option {
+    font-size: 15px;
+    color: rgb(204, 202, 202);
+    background: rgba(8, 8, 8, 0.952);
+    font-weight: bold;
+}
+
+select {
+    color: rgb(19, 18, 18);
+    font-size: 15px;
+    background-color: rgba(82, 80, 80, 0);
+    margin: 12px;
+    border: 3px groove rgb(39, 39, 39);
+    border-radius: 12px;
+    color: rgb(156, 151, 151);
+    padding: 7px 7px;
+    outline: none;
+    transition: 0.5s;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.527);
+}
+
+select:hover {
+    color: rgb(207, 208, 209);
+    font-size: 17px;
+    transition: 0.5s;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.527);
+}
+
+#logar-botao {
+    background-color: rgb(17, 74, 230);
+    color: rgb(243, 243, 243);
+    border: none;
+    border-radius: 5px;
+    padding: 9px;
+    margin: 13px;
+    font-size: 15px;
+    transition: 0.5s;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.829);
+}
+
+
+#logar-botao:hover {
+    background-color: rgb(56, 56, 56);
+    color: rgb(180, 180, 180);
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 13px;
+    font-size: 18px;
+    transition: 0.5s;
+    box-shadow: inset 0px 9px 9px rgba(0, 0, 0, 0.788);
+}

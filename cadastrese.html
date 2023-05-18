@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastrese.css">
+    <link rel="icon" type="image/icon" href="imagens/logo.png">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    
+    <div class="login">
+        <img class="logo_foto" src="imagens/logo.png" alt="Logo">
+        <form>
+            <label for="login">Criar Conta:</label><br>
+            <input type="text" id="login" name="login" required placeholder="Nome Completo">
+            <br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" required placeholder="Senha">
+            <br>
+
+
+            <label for="sexo">Sexo:</label><br>
+            <select required>
+                <option id="sexo" value="">Selecione Uma Opção</option>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="outro">Outro</option>
+            </select><br>
+
+            <label for="estado">Estado:</label><br>
+            <select>
+                <option>Selecione Um Estado</option>
+                <option>Acre</option>
+                <option>Alagoas</option>
+                <option>Amapá</option>
+                <option>Amazonas </option>
+                <option>Bahia</option>
+                <option>Ceará</option>
+                <option>Distrito Federal</option>
+                <option>Espírito Santo</option>
+                <option>Goiás</option>
+                <option>Maranhão</option>
+                <option>Mato Grosso</option>
+                <option>Mato Grosso do Sul</option>
+                <option>Minas Gerais</option>
+                <option>Pará</option>
+                <option>Paraíba</option>
+                <option>Paraná</option>
+                <option>Pernambuco</option>
+                <option>Piauí</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio Grande do Norte</option>
+                <option>Rio Grande do Sul</option>
+                <option>Rondônia</option>
+                <option>Roraima</option>
+                <option>Santa Catarina</option>
+                <option>São Paulo</option>
+                <option>Sergipe</option>
+            </select><br>
+
+            <label for="interesse">Interesse:</label><br>
+            <input type="checkbox" name="interesse" id="tecnologia"> Tecnologia
+            <br>
+            <input type="checkbox" name="interesse" id="sociedade"> Sociedade
+            <br>
+            <input type="checkbox" name="interesse" id="educacao"> Educação
+            <br>
+            <input type="checkbox" name="interesse" id="ecologia"> Ecologia
+            <br>
+            <input type="submit" value="Criar Conta" id="logar-botao" required>
+        </form>
+    </div>
+
+</body>
+</html>

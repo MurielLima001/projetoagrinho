@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/fundo4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin-top: -30px;
+    width: 200px;
+}
+
+.titulo {
+    display: block;
+    margin:  0 auto;
+    width: 350px;
+    text-align: center;
+    margin-top: -170px;
+    border-radius: 150px;
+    padding: 12px;
+}
+
+.titulo_universal {
+    color: rgb(45, 110, 185);
+}
+
+
+.texto_educacao {
+    text-align: justify;
+    transition: 0.7s;
+    display: block;
+    width: 40%;
+    font-size: 20px;
+    margin: 30px;
+    padding: 28px;
+    border-radius: 26px;
+    border: 5px groove rgb(21, 102, 196);
+    background-color: rgba(26, 25, 25, 0.863);
+    color: rgb(135, 136, 138);
+    box-shadow: inset 0px 9px 9px rgba(12, 12, 12, 0.863);
+    overflow-wrap: break-word;
+}
+
+.texto_educacao:hover {
+    text-align: justify;
+    transition: 0.6s;
+    display: block;
+    width: 45%;
+    font-size: 22px;
+    margin: 30px;
+    padding: 28px;
+    border-radius: 26px;
+    border: 5px groove rgb(26, 26, 26);
+    background-color: rgb(26, 25, 25);
+    color: rgb(135, 136, 138);
+    box-shadow: inset 0px 7px 7px rgba(12, 12, 12, 0.753);
+    overflow-wrap: break-word;
+}
+
+.texto_educacao_dois {
+    text-align: justify;
+    transition: 0.7s;
+    display: block;
+    width: 40%;
+    font-size: 20px;
+    margin: 30px;
+    padding: 28px;
+    border-radius: 26px;
+    border: 5px groove rgb(27, 96, 173);
+    background-color: rgba(26, 25, 25, 0.767);
+    color: rgb(135, 136, 138);
+    box-shadow: inset 0px 9px 9px rgba(12, 12, 12, 0.87);
+    float: right;
+    overflow-wrap: break-word;
+}
+
+.texto_educacao_dois:hover {
+    text-align: justify;
+    transition: 0.6s;
+    display: block;
+    width: 45%;
+    font-size: 22px;
+    margin: 30px;
+    padding: 28px;
+    border-radius: 26px;
+    border: 5px groove rgb(29, 29, 29);
+    background-color: rgb(26, 25, 25);
+    color: rgb(135, 136, 138);
+    box-shadow: inset 0px 7px 7px rgba(12, 12, 12, 0.911);
+    float: right;
+    overflow-wrap: break-word;
+}
+
+.texto_quatro {
+    text-align: justify;
+    transition: 0.5s;
+    font-size: 20px;
+    margin: 13px;
+    padding: 27px;
+    float: left;
+    display: block;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    color: rgb(167, 169, 172);
+    border: 5px groove rgb(31, 86, 204);
+    background-color: rgba(36, 34, 34, 0.774);
+    box-shadow: inset 0px 12px 12px rgba(12, 12, 12, 0.897);
+    overflow-wrap: break-word;
+}
+
+.texto_quatro:hover {
+    transition: 0.5s;
+    font-size: 21px;
+    margin: 15px;
+    padding: 22px;
+    float: left;
+    display: block;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    color: rgb(192, 192, 192);
+    border: 5px groove rgb(10, 10, 10);
+    background-color: rgb(36, 34, 34);
+    box-shadow: inset 0px 10px 10px rgb(12, 12, 12);
+    overflow-wrap: break-word;
+}
+
+.imagem_ilustrativa {
+    transition: 0.5s;
+    padding-right: 150px;
+}
+
+.imagem_ilustrativa:hover {
+    transition: 0.4s;
+    padding-right: 170px;
+}
+
+.imagem_dois {
+    transition: 0.5s;
+    padding-left: 150px;
+}
+
+.imagem_dois:hover {
+    transition: 0.4s;
+    padding-left: 170px;
+}
+
+.foto {
+    float: right;
+    margin-top: 70px;
+    width: 400px;
+    border-radius: 20px;
+    border: 5px groove rgb(35, 90, 172);
+}
+
+.foto_dois {
+    float: left;
+    margin-top: 40px;
+    width: 400px;
+    border-radius: 20px;
+    border: 5px groove rgb(35, 90, 172);
+}
+
+.logo_agrinho {
+    display: block;
+    margin-left: auto;
+    width: 400px;
+    text-align: right;
+    margin-top: -210px;
+}
+
+header {
+	background-color: rgba(29, 29, 29, 0.534);
+	height: 255px;
+    box-shadow: 0 12px 25px rgb(32, 32, 32);
+ }
+
+ nav a {
+	font-size: 20px;
+    margin: 8px;
+	padding: 12px;
+	color: rgb(45, 110, 185);
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+    background-color: rgb(31, 30, 30);
+    box-shadow: inset 0px 5px 5px rgba(12, 12, 12, 0.753);
+    border-radius: 13px;
+    transition: 0.7s;
+}
+
+nav {
+	text-align: center;
+    margin-top: -45px;
+}
+
+nav a:hover {
+	font-size: 23px;
+    margin: 11px;
+	padding: 13px;
+	transition: 0.4s;
+	background-color: rgb(45, 110, 185);
+	color: rgb(31, 31, 31);
+}

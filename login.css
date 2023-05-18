@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(imagens/fundo5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo_foto {
+    width: 150px;
+}
+
+.login {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 175px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(3, 3, 3, 0.637);
+    border-radius: 12px;
+    width: 600px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+label {
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(36, 87, 226);
+    font-size: 20px;
+}
+
+input {
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: rgba(82, 80, 80, 0);
+    margin: 12px;
+    border: 3px groove rgb(39, 39, 39);
+    color: rgb(156, 151, 151);
+    padding: 7px 7px;
+    outline: none;
+    transition: 0.6s;
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.527);
+}
+
+input:hover {
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+#logar-botao {
+    background-color: rgb(17, 74, 230);
+    color: rgb(243, 243, 243);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+    font-size: 15px;
+    transition: 0.5s;
+    box-shadow: inset 0px 9px 9px rgba(0, 0, 0, 0.747);
+}
+
+#logar-botao:hover {
+    background-color: rgb(56, 56, 56);
+    color: rgb(180, 180, 180);
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 13px;
+    font-size: 18px;
+    transition: 0.5s;
+    box-shadow: inset 0px 9px 9px rgba(0, 0, 0, 0.664);
+}

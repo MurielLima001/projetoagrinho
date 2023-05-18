@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/fundo2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(32, 32, 32, 0.788);
+    height: 260px;
+    box-shadow: 0 12px 25px rgb(36, 35, 35);
+}
+
+.direita {
+    text-align: right;
+    margin-top: -27px;
+    margin-right: 23px;
+}
+
+.logo {
+    margin-top: -30px;
+    width: 190px;
+}
+
+.titulo {
+    display: block;
+    margin:  0 auto;
+    width: 600px;
+    text-align: center;
+    margin-top: -198px;
+}
+
+.logo_agrinho {
+    display: block;
+    margin-left: auto;
+    width: 360px;
+    text-align: right;
+    margin-top: -210px;
+}
+
+.frase_texto {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.texto_frase {
+    width: 900px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    background-color: rgb(34, 34, 34);
+    color: rgb(12, 150, 204);
+    font-weight: bold;
+    box-shadow: inset 0px 9px 9px rgba(0, 0, 0, 0.527);
+    transition: 0.6s;
+}
+
+nav a:hover {
+    transition: 0.4s;
+    background-color: rgb(41, 126, 223);
+    color: rgb(32, 32, 32);
+    margin: 12px;
+    padding: 12px;
+    font-size: 23px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: inset 0px 9px 9px rgba(0, 0, 0, 0.527);
+}
